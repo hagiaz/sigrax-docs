@@ -1,11 +1,18 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: sigrax.netlify.app
+favicon : static/icon.svg
 branding:
-  title: SIGRAX EAMS
-  label: Docs
+  title: Sigrax EAMS
+  label: v1.0
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Our Website
+  link: https://sigrax.com
+  icon: globe
+  text : "#ffffff"
+
+- text: SIGRAX EAMS
+  link: https://cmms.sigrax.com
+  icon: stack
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
