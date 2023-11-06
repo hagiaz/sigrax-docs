@@ -5,14 +5,16 @@ favicon : static/icon.svg
 branding:
   title: Sigrax EAMS
   label: v1.0
+  
 links:
 - text: Our Website
   link: https://sigrax.com
   icon: globe
-  text : "#ffffff"
 
 - text: SIGRAX EAMS
   link: https://cmms.sigrax.com
   icon: stack
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+meta:
+  title : " | Sigrax EAMS Documentation"
