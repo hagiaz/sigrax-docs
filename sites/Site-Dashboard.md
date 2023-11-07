@@ -79,10 +79,10 @@ Pada halaman detail gudang, terdapat juga sub-menu yang berguna untuk mengatur g
 Warehouse detail adalah data tentang gudang itu sendiri. Pada halaman ini anda dapat melihat detail seperti foto, nama, kode dan deskripsi dari gudang tersebut dan merubahnya.
 
 ##### Receive
-Halaman receive ini adalah halaman dimana anda dapat mengatur dan menambahkan barang/part yang masuk ke suatu gudang. Untuk menambahkan data barang yang masuk, tekan tombol (+ Receive New) dan isi data yang dibutuhkan.
+Halaman receive ini adalah halaman dimana anda dapat mengatur dan menambahkan barang/part yang masuk ke suatu gudang.
 
 ##### Stock
-Halaman stock adalah halaman dimana anda dapat melihat dan mengatur stok suku cadang/part yang terdapat pada suatu gudang. Untuk menambahkan suatu part, anda cukup menekan tombol (+ Create New Stock), mengisi data yang dibutuhkan dan menyimpannya.
+Halaman stock adalah halaman dimana anda dapat melihat dan mengatur stok suku cadang/part yang terdapat pada suatu gudang.
 
 ##### Transfer
 Pada halaman transfer disini, anda dapat melihat data suku cadang/part yang berpindah (transfer) baik menuju maupun dari gudang tersebut.
