@@ -21,5 +21,76 @@ Pada highlight ini, ditampilkan data WO yang harus dilihat, sedang berjalan, sel
 Costs atau biaya adalah jumlah biaya-biaya yang anda telah dikeluarkan selama satu jangka waktu. Pada halaman ini terdapat beberapa highlight biaya, seperti seperti biaya part (suku cadang), labour (tenaga kerja), dan lain-lain.
 
 ### Location
+Lokasi adalah tempat dimana aset anda berada. Berbeda dengan sites, lokasi adalah tempat spesifik dalam site tersebut, atau satu tingkat di bawahnya. Contoh : Didalam site Jakarta, terdapat lokasi Main Building dan R&D Building, atau Lantai 1 dan Lantai 2. Didalam suatu site dapat terdapat beberapa lokasi.
+
+#### Menambah Lokasi
+Tekan tombol **(+ Create New Location)** yang berada pada sisi atas dashboard, dan mengisi form yang muncul.
+
+!!!warning Alert
+Pada tiap form, field bertanda bintang (*) adalah field yang harus diisi (required).
+!!!
+
+#### Mengedit Lokasi
+Untuk mengedit lokasi, tekan tombol edit yang bersimbolkan mata berwarna biru pada list lokasi, kemudian akan muncul nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.
+
+![](../images/edit-location.png)
+
+#### Menghapus Lokasi
+Untuk menghapus lokasi, pada list lokasi tersebut anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.
+
 ### Sub-Location
+Sub-lokasi adalah tempat dimana aset anda berada, namun bersifat lebih spesifik lagi daripada lokasi. Misal dalam satu lokasi terdapat ruang rapat dan ruang kerja, maka ruang tersebut dapat disebut sebagai sub-lokasi. Didalam satu lokasi juga dapat terdapat beberapa sub-lokasi.
+
+#### Menambah Sub-Lokasi
+Untuk menambah sub lokasi pada sebuah lokasi, tekan tombol plus berwarna hijau yang ada pada tiap lokasi dan isi form yang muncul.
+
+#### Mengedit Sub-Lokasi
+Tekan angka jumlah sub-lokasi dari lokasi tersebut.
+
+![](../images/sublocation.png)
+
+Kemudian akan muncul halaman list sub-lokasi dari lokasi yang anda pilih, yang mana adalah sebagai berikut:
+
+![](../images/sublocation-list.png)
+
+Untuk mengeditnya, anda dapat menekan tombol edit dimana kemudian akan muncul nama dan deskripsi sub lokasi tersebut, dan anda dapat mengubahnya. Jangan lupa tekan (Save Sublocation) untuk menyimpan perubahan yang dilakukan.
+
+#### Menghapus Sub-Lokasi
+Untuk menghapus sub-lokasi, pada list lokasi tersebut anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.
+
 ### Warehouse
+Berbeda dengan lokasi dan sub-lokasi, warehouse atau gudang adalah tempat dimana part atau suku cadang anda berada, namun masih dalam satu site yang sama.
+
+#### Menambah Gudang
+Untuk menambahkan gudang pada suatu site, anda dapat menekan tombol (+ Create New Warehouse) yang berada pada sisi atas dashboard dan mengisi form yang muncul.
+
+#### Mengisi dan Melihat Detail Gudang
+Pada list warehouse yang terdapat dibawah list lokasi, anda dapat menekan tombol detail yang bersimbolkan mata berwarna biru.
+
+![](../images/see-warehouse.png)
+
+Kemudian anda akan dibawa ke halaman detail gudang tersebut. Pada halaman ini, anda juga dapat mengubah detail gudang.
+
+![](../images/warehouse-detail.png)
+
+Pada halaman detail gudang, terdapat juga sub-menu yang berguna untuk mengatur gudang tersebut, yaitu:
+
+##### Warehouse Detail
+Warehouse detail adalah data tentang gudang itu sendiri. Pada halaman ini anda dapat melihat detail seperti foto, nama, kode dan deskripsi dari gudang tersebut dan merubahnya.
+
+##### Receive
+Halaman receive ini adalah halaman dimana anda dapat mengatur dan menambahkan barang/part yang masuk ke suatu gudang. Untuk menambahkan data barang yang masuk, tekan tombol (+ Receive New) dan isi data yang dibutuhkan.
+
+##### Stock
+Halaman stock adalah halaman dimana anda dapat melihat dan mengatur stok suku cadang/part yang terdapat pada suatu gudang. Untuk menambahkan suatu part, anda cukup menekan tombol (+ Create New Stock), mengisi data yang dibutuhkan dan menyimpannya.
+
+##### Transfer
+Pada halaman transfer disini, anda dapat melihat data suku cadang/part yang berpindah (transfer) baik menuju maupun dari gudang tersebut.
+
+#### Mengedit Gudang
+Untuk mengedit gudang, anda dapat menekan tombol edit yang bersimbolkan pensil.
+![](../images/edit-warehouse.png)
+kemudian akan muncul kode, nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.
+
+#### Menghapus Gudang
+Untuk menghapus lokasi, anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.
