@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752663488275">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752665018189">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -21,21 +21,23 @@
     <meta property="og:url" content="https://sigrax.netlify.app/sites/manage-works/">
     <meta property="og:title" content="Manage Works | Sigrax EAMS Documentation">
     <meta property="og:description" content="Work Request adalah pesan atau laporan yang dilaporkan mengenai suatu aset, yang harus ditindaklanjuti lebih jauh menjadi Work Order.">
+    <meta property="og:image" content="https://sigrax.netlify.app/images/wr-detail.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://sigrax.netlify.app/sites/manage-works/">
     <meta property="twitter:title" content="Manage Works | Sigrax EAMS Documentation">
     <meta property="twitter:description" content="Work Request adalah pesan atau laporan yang dilaporkan mengenai suatu aset, yang harus ditindaklanjuti lebih jauh menjadi Work Order.">
+    <meta property="twitter:image" content="https://sigrax.netlify.app/images/wr-detail.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752663488275" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752665018189" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752663488275" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752665018189" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752663488275" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752665018189" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -241,18 +243,191 @@
         <span>Open Task</span>
     </h3>
 </doc-anchor-target>
+<p>Open task adalah semua WR dan WO yang masih terbuka dan belum selesai.</p>
 <doc-anchor-target id="work-request">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#work-request">#</doc-anchor-trigger>
         <span>Work Request</span>
     </h4>
 </doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/wr-open.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Pada halaman open task dan menu Work Request, anda dapat melihat semua WR yang aktif. Untuk membuat WR, anda dapat melakukannya lewat dashboard maupun menu Submit Work Request, yang juga terdapat di menu manage work.</p>
+<p>Untuk menindaklanjuti WR, anda dapat menekan tombol action yang akan membawa anda ke halaman detail WR tersebut.
+<figure class="content-center">
+    <img src="../../images/wr-detail.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Ketika problem telah dianalisis, anda dapat menindaklanjuti WR tersebut menjadi 3 output, yaitu:</p>
+<ul>
+<li>Done : Apabila masalah selesai tanpa harus ditindaklanjuti lebih lanjut.</li>
+<li>Canceled : Apabila masalah tidak perlu, namun bukan berarti selesai.</li>
+<li>Create Work Order : Apabila masalah perlu ditindaklanjuti, dan harus dibuat WO.
+Anda juga harus menambahkan notes pada WR ini. Kemudian jika semua telah selesai diisi, tekan (Submit Review) untuk menyelesaikan review.</li>
+</ul>
 <doc-anchor-target id="work-order">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#work-order">#</doc-anchor-trigger>
         <span>Work Order</span>
     </h4>
 </doc-anchor-target>
+<p>Pada submenu Work Order, anda dapat mengatur WO, baik membuat maupun menindaklanjuti WO.
+Untuk membuat WO, anda dapat membuatnya baik secara langsung melalui dashboard ataupun dari tindak lanjut WR. Dalam pembuatan WO, terdapat beberapa data yang harus anda isi, yaitu:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WO Name*</td>
+<td>Nama/Judul dari WO.</td>
+</tr>
+<tr>
+<td>Location*</td>
+<td>Lokasi tempat masalah berada.</td>
+</tr>
+<tr>
+<td>Aset yang bersangkutan.</td>
+<td></td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Deskripsi masalah.</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>Prioritas masalah.</td>
+</tr>
+<tr>
+<td>Attachment</td>
+<td>Lampiran, baik berupa dokumen, foto atau lainnya.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>field bertanda bintang (*) adalah field yang harus diisi (required).</p>
+        </div>
+    </div>
+</div>
+<p>Ketika WO telah dibuat, maka akan tampil di list WO seperti berikut:
+<figure class="content-center">
+    <img src="../../images/wo-list.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WO-PM-XXXX</td>
+<td>Kode WO</td>
+</tr>
+<tr>
+<td>High</td>
+<td>Prioritas WO</td>
+</tr>
+<tr>
+<td>Monthly Indoor AC</td>
+<td>Nama/Judul WO</td>
+</tr>
+<tr>
+<td>Planned</td>
+<td>Jenis WO, yaitu: 1. Planned : WO yang dibuat dari PM, 2. Unplanned : WO yang dibuat tanpa melalui PM</td>
+</tr>
+<tr>
+<td>Response</td>
+<td>Status WO</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="menjalankan-work-order-engineer">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menjalankan-work-order-engineer">#</doc-anchor-trigger>
+        <span>Menjalankan Work Order (Engineer)</span>
+    </h4>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/wo-eng-button.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Untuk menjalankan sebuah WO, anda dapat menekan tombol dengan simbol mata berwarna biru seperti tabel diatas. Pada halaman ini, anda dapat melihat dan mengisi detil-detil yang diperlukan dalam pengerjaan WO, seperti:</p>
+<p><figure class="content-center">
+    <img src="../../images/wo-eng.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ul>
+<li><p><strong>Work Order Detail</strong>, yaitu detail dari WO yang mungkin dibutuhkan selama pekerjaan. Anda juga dapat mengisi data-data seperti status dari WO, tanggal pengerjaan, dan lain-lain.</p>
+</li>
+<li><p><strong>Part</strong>, yaitu halaman yang menampilkan suku cadang yang dibutuhkan dalam WO. Anda juga dapat menambahkan part jika dibutuhkan dengan menekan tombol (Add Part) yang berada pada bagian atas halaman.</p>
+</li>
+<li><p><strong>Asset Information</strong> menampilkan aset apa yang terkait dengan WO dan detail dari aset tersebut, termasuk lokasi dimana aset tersebut berada.</p>
+</li>
+<li><p><strong>Log History</strong> menampilkan histori perubahan segala hal yang terkait dengan suatu WO, lengkap dengan jam, jenis perubahan, dan siapa yang merubah.</p>
+</li>
+<li><p><strong>Instruction</strong>, keterangan ataupun instruksi tambahan yang diberikan untuk pengerjaan WO. Anda juga dapat menambahkan instruction dan mencetaknya.</p>
+</li>
+<li><p><strong>Job Plan</strong>, berguna untuk menampilkan rencana pekerjaan yang akan dilakukan dalam WO</p>
+</li>
+<li><p><strong>Safety Instruction</strong>, berguna untuk menampilkan instruksi keamanan yang akan dilaksanakan dalam WO. Berbeda dengan instruction, tab ini berguna spesifik untuk masalah keamanan.</p>
+</li>
+</ul>
+<doc-anchor-target id="mengelola-work-order-supervisor">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengelola-work-order-supervisor">#</doc-anchor-trigger>
+        <span>Mengelola Work Order (Supervisor)</span>
+    </h4>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/wo-spv-button.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Untuk mengelola dan mengawasi sebuah WO, anda dapat menekan tombol edit seperti tabel diatas. Pada halaman ini, anda dapat melihat dan mengisi detil-detil yang diperlukan dalam review WO, seperti:</p>
+<p><figure class="content-center">
+    <img src="../../images/wo-spv.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ul>
+<li><p><strong>Work Order Detail</strong>, yaitu detail dari WO yang mungkin dibutuhkan selama pekerjaan. Anda juga dapat mengisi data-data seperti status dari WO, tanggal pengerjaan, siapa yang mengerjakan dan lain-lain.</p>
+</li>
+<li><p><strong>Cost Summary</strong>, keseluruhan biaya dan part yang mungkin atau akan dibutuhkan pada WO. Anda juga dapat mencetak daftar part yang dibutuhkan dengan menekan tombol (Request Purchase).</p>
+</li>
+<li><p><strong>Assets/Location</strong>, menampilkan aset apa yang terkait dengan WO dan detail dari aset tersebut, termasuk lokasi dimana aset tersebut berada.</p>
+</li>
+<li><p><strong>Log History</strong>, menampilkan histori perubahan segala hal yang terkait dengan suatu WO, lengkap dengan jam, jenis perubahan, dan siapa yang merubah.</p>
+</li>
+<li><p><strong>Instruction</strong>, keterangan ataupun instruksi tambahan yang diberikan untuk pengerjaan WO. Anda juga dapat menambahkan instruction dan mencetaknya.</p>
+</li>
+</ul>
+<p>Untuk lebih jauh mengenai flow pekerjaan baik WR maupun WO, silahkan baca bagian <a href="../../workflow/work-order/">Workflow</a></p>
+<p>Ketika anda telah selesai merubah WO, baik itu merubah detailnya maupun menyelesaikan WO, jangan lupa untuk menekan tombol (Submit Review) yang terdapat pada bagian bawah halaman. Jika anda memerlukan bentuk cetak dari WO, anda juga dapat menekan tombol (Print Work Order).</p>
 <doc-anchor-target id="completed-task">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#completed-task">#</doc-anchor-trigger>
