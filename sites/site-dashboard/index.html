@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752662323872">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752663488275">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752662323872" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752663488275" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752662323872" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752663488275" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752662323872" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752663488275" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -246,18 +246,170 @@
         <span>Location</span>
     </h3>
 </doc-anchor-target>
+<p>Lokasi adalah tempat dimana aset anda berada. Berbeda dengan sites, lokasi adalah tempat spesifik dalam site tersebut, atau satu tingkat di bawahnya. Contoh : Didalam site Jakarta, terdapat lokasi Main Building dan R&amp;D Building, atau Lantai 1 dan Lantai 2. Didalam suatu site dapat terdapat beberapa lokasi.</p>
+<doc-anchor-target id="menambah-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menambah-lokasi">#</doc-anchor-trigger>
+        <span>Menambah Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Tekan tombol <strong>(+ Create New Location)</strong> yang berada pada sisi atas dashboard, dan mengisi form yang muncul.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Alert</h5>
+<p>Pada tiap form, field bertanda bintang (*) adalah field yang harus diisi (required).</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="mengedit-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-lokasi">#</doc-anchor-trigger>
+        <span>Mengedit Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk mengedit lokasi, tekan tombol edit yang bersimbolkan mata berwarna biru pada list lokasi, kemudian akan muncul nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.</p>
+<p><figure class="content-center">
+    <img src="../../images/edit-location.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="menghapus-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menghapus-lokasi">#</doc-anchor-trigger>
+        <span>Menghapus Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk menghapus lokasi, pada list lokasi tersebut anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.</p>
 <doc-anchor-target id="sub-location">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sub-location">#</doc-anchor-trigger>
         <span>Sub-Location</span>
     </h3>
 </doc-anchor-target>
+<p>Sub-lokasi adalah tempat dimana aset anda berada, namun bersifat lebih spesifik lagi daripada lokasi. Misal dalam satu lokasi terdapat ruang rapat dan ruang kerja, maka ruang tersebut dapat disebut sebagai sub-lokasi. Didalam satu lokasi juga dapat terdapat beberapa sub-lokasi.</p>
+<doc-anchor-target id="menambah-sub-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menambah-sub-lokasi">#</doc-anchor-trigger>
+        <span>Menambah Sub-Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk menambah sub lokasi pada sebuah lokasi, tekan tombol plus berwarna hijau yang ada pada tiap lokasi dan isi form yang muncul.</p>
+<doc-anchor-target id="mengedit-sub-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-sub-lokasi">#</doc-anchor-trigger>
+        <span>Mengedit Sub-Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Tekan angka jumlah sub-lokasi dari lokasi tersebut.</p>
+<p><figure class="content-center">
+    <img src="../../images/sublocation.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Kemudian akan muncul halaman list sub-lokasi dari lokasi yang anda pilih, yang mana adalah sebagai berikut:</p>
+<p><figure class="content-center">
+    <img src="../../images/sublocation-list.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Untuk mengeditnya, anda dapat menekan tombol edit dimana kemudian akan muncul nama dan deskripsi sub lokasi tersebut, dan anda dapat mengubahnya. Jangan lupa tekan (Save Sublocation) untuk menyimpan perubahan yang dilakukan.</p>
+<doc-anchor-target id="menghapus-sub-lokasi">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menghapus-sub-lokasi">#</doc-anchor-trigger>
+        <span>Menghapus Sub-Lokasi</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk menghapus sub-lokasi, pada list lokasi tersebut anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.</p>
 <doc-anchor-target id="warehouse">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#warehouse">#</doc-anchor-trigger>
         <span>Warehouse</span>
     </h3>
 </doc-anchor-target>
+<p>Berbeda dengan lokasi dan sub-lokasi, warehouse atau gudang adalah tempat dimana part atau suku cadang anda berada, namun masih dalam satu site yang sama.</p>
+<doc-anchor-target id="menambah-gudang">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menambah-gudang">#</doc-anchor-trigger>
+        <span>Menambah Gudang</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk menambahkan gudang pada suatu site, anda dapat menekan tombol (+ Create New Warehouse) yang berada pada sisi atas dashboard dan mengisi form yang muncul.</p>
+<doc-anchor-target id="mengisi-dan-melihat-detail-gudang">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengisi-dan-melihat-detail-gudang">#</doc-anchor-trigger>
+        <span>Mengisi dan Melihat Detail Gudang</span>
+    </h4>
+</doc-anchor-target>
+<p>Pada list warehouse yang terdapat dibawah list lokasi, anda dapat menekan tombol detail yang bersimbolkan mata berwarna biru.</p>
+<p><figure class="content-center">
+    <img src="../../images/see-warehouse.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Kemudian anda akan dibawa ke halaman detail gudang tersebut. Pada halaman ini, anda juga dapat mengubah detail gudang.</p>
+<p><figure class="content-center">
+    <img src="../../images/warehouse-detail.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Pada halaman detail gudang, terdapat juga sub-menu yang berguna untuk mengatur gudang tersebut, yaitu:</p>
+<doc-anchor-target id="warehouse-detail">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#warehouse-detail">#</doc-anchor-trigger>
+        <span>Warehouse Detail</span>
+    </h5>
+</doc-anchor-target>
+<p>Warehouse detail adalah data tentang gudang itu sendiri. Pada halaman ini anda dapat melihat detail seperti foto, nama, kode dan deskripsi dari gudang tersebut dan merubahnya.</p>
+<doc-anchor-target id="receive">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#receive">#</doc-anchor-trigger>
+        <span>Receive</span>
+    </h5>
+</doc-anchor-target>
+<p>Halaman receive ini adalah halaman dimana anda dapat mengatur dan menambahkan barang/part yang masuk ke suatu gudang. Untuk menambahkan data barang yang masuk, tekan tombol (+ Receive New) dan isi data yang dibutuhkan.</p>
+<doc-anchor-target id="stock">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stock">#</doc-anchor-trigger>
+        <span>Stock</span>
+    </h5>
+</doc-anchor-target>
+<p>Halaman stock adalah halaman dimana anda dapat melihat dan mengatur stok suku cadang/part yang terdapat pada suatu gudang. Untuk menambahkan suatu part, anda cukup menekan tombol (+ Create New Stock), mengisi data yang dibutuhkan dan menyimpannya.</p>
+<doc-anchor-target id="transfer">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#transfer">#</doc-anchor-trigger>
+        <span>Transfer</span>
+    </h5>
+</doc-anchor-target>
+<p>Pada halaman transfer disini, anda dapat melihat data suku cadang/part yang berpindah (transfer) baik menuju maupun dari gudang tersebut.</p>
+<doc-anchor-target id="mengedit-gudang">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-gudang">#</doc-anchor-trigger>
+        <span>Mengedit Gudang</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk mengedit gudang, anda dapat menekan tombol edit yang bersimbolkan pensil.
+<figure class="content-center">
+    <img src="../../images/edit-warehouse.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+kemudian akan muncul kode, nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.</p>
+<doc-anchor-target id="menghapus-gudang">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menghapus-gudang">#</doc-anchor-trigger>
+        <span>Menghapus Gudang</span>
+    </h4>
+</doc-anchor-target>
+<p>Untuk menghapus lokasi, anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.</p>
 
                                 
                                 <!-- Required only on API pages -->
