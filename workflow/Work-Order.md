@@ -1,4 +1,4 @@
 ---
-order: 99
+order: 7
 icon: gear
 ---
