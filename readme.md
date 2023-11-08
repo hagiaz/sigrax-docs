@@ -5,4 +5,4 @@ icon: home-fill
 
 # Introduction
 
-Aplikasi CMMS Sigrax memiliki dashboard admin dan 4 modul, yaitu Sites, Master Data, Assets, dan Purchasing. Dua diantaranya, yakni sites dan master data dapat memiliki banyak menu. Dalam dokumentasi ini, akan dijelaskan secara detail fungsi dari menu-menu dalam keempat modul tersebut.
+Aplikasi EAMS Sigrax memiliki dashboard admin dan 4 modul, yaitu Sites, Master Data, Assets, dan Purchasing. Dua diantaranya, yakni sites dan master data dapat memiliki banyak menu. Dalam dokumentasi ini, akan dijelaskan secara detail fungsi dari menu-menu dalam keempat modul tersebut.
