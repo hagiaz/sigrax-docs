@@ -80,7 +80,7 @@ PM Name | Nama PM
 Work Trade | Jenis pekerjaan yang dilakukan
 Choose PM By | Pilihan objek yang akan dilakukan maintenance. Dapat berupa satu aset, satu lokasi (semua aset dalam lokasi) dan inspection group (jenis/grup aset (lihat [Group Inspection](#group-inspection)))
 Asset/Location/Inspection Group | Nama aset/lokasi/grup yang akan dilakukan PM
-Task No | Pekerjaan yang akan dilakukan. (lihat [PM Task](##pm-tasks))
+Task No | Pekerjaan yang akan dilakukan. (lihat [PM Task](#pm-tasks))
 Generation Type | Waktu dimana PM akan meng-generate WO.
 Time Setting | Pengaturan waktu. Field ini berbeda tergantung pada kategori rentang waktu yang anda pilih.
 Status | Apakah PM aktif atau tidak.
