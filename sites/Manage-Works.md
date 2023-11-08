@@ -3,20 +3,20 @@ order: 9
 icon: list-unordered
 ---
 
-### Penjelasan Work Request
+## Penjelasan Work Request
 Work Request adalah pesan atau laporan yang dilaporkan mengenai suatu aset, yang harus ditindaklanjuti lebih jauh menjadi Work Order. Work Request dapat dilakukan oleh siapapun.
 
-### Penjelasan Work Order
+## Penjelasan Work Order
 Work Order adalah perintah yang harus dikerjakan terhadap suatu aset. Work Order dapat berupa pengecekan, pemeliharaan dan perbaikan.
 
 !!!
 Work Order pada umumnya dibuat setelah adanya Work Request. Namun, Work Order dapat langsung dibuat tanpa melalui Work Request dan langsung melalui dashboard, ataupun otomatis melalui PM (Preventive maintenance). Untuk WO ini hanya dapat dibuat oleh supervisor.
 !!!
 
-### Open Task
+## Open Task
 Open task adalah semua WR dan WO yang masih terbuka dan belum selesai.
 
-#### Work Request
+### Work Request
 ![](../images/wr-open.png)
 Pada halaman open task dan menu Work Request, anda dapat melihat semua WR yang aktif. Untuk membuat WR, anda dapat melakukannya lewat dashboard maupun menu Submit Work Request, yang juga terdapat di menu manage work.
 
@@ -28,7 +28,7 @@ Ketika problem telah dianalisis, anda dapat menindaklanjuti WR tersebut menjadi 
 * Create Work Order : Apabila masalah perlu ditindaklanjuti, dan harus dibuat WO.
 Anda juga harus menambahkan notes pada WR ini. Kemudian jika semua telah selesai diisi, tekan (Submit Review) untuk menyelesaikan review.
 
-#### Work Order
+### Work Order
 Pada submenu Work Order, anda dapat mengatur WO, baik membuat maupun menindaklanjuti WO.
 Untuk membuat WO, anda dapat membuatnya baik secara langsung melalui dashboard ataupun dari tindak lanjut WR. Dalam pembuatan WO, terdapat beberapa data yang harus anda isi, yaitu:
 
@@ -56,7 +56,7 @@ Monthly Indoor AC | Nama/Judul WO
 Planned | Jenis WO, yaitu: 1. Planned : WO yang dibuat dari PM, 2. Unplanned : WO yang dibuat tanpa melalui PM
 Response | Status WO
 
-#### Menjalankan Work Order (Engineer)
+### Menjalankan Work Order (Engineer)
 ![](../images/wo-eng-button.png)
 Untuk menjalankan sebuah WO, anda dapat menekan tombol dengan simbol mata berwarna biru seperti tabel diatas. Pada halaman ini, anda dapat melihat dan mengisi detil-detil yang diperlukan dalam pengerjaan WO, seperti:
 
@@ -76,7 +76,7 @@ Untuk menjalankan sebuah WO, anda dapat menekan tombol dengan simbol mata berwar
 
 * **Safety Instruction**, berguna untuk menampilkan instruksi keamanan yang akan dilaksanakan dalam WO. Berbeda dengan instruction, tab ini berguna spesifik untuk masalah keamanan.
 
-#### Mengelola Work Order (Supervisor)
+### Mengelola Work Order (Supervisor)
 ![](../images/wo-spv-button.png)
 Untuk mengelola dan mengawasi sebuah WO, anda dapat menekan tombol edit seperti tabel diatas. Pada halaman ini, anda dapat melihat dan mengisi detil-detil yang diperlukan dalam review WO, seperti:
 
@@ -97,13 +97,13 @@ Untuk lebih jauh mengenai flow pekerjaan baik WR maupun WO, silahkan baca bagian
 Ketika anda telah selesai merubah WO, baik itu merubah detailnya maupun menyelesaikan WO, jangan lupa untuk menekan tombol (Submit Review) yang terdapat pada bagian bawah halaman. Jika anda memerlukan bentuk cetak dari WO, anda juga dapat menekan tombol (Print Work Order).
 
 
-### Completed Task
+## Completed Task
 Completed task adalah pekerjaan baik itu berupa WR ataupun WO yang sudah diselesaikan.
 
 WR ditandai selesai apabila telah ditindaklanjuti/diasesmen apapun hasilnya (Done, Canceled, Create WO), namun untuk WO, status WO tersebut haruslah **Done**, yang menandakan telah selesai dan telah dievaluasi.
 
 
-### Submit Work Request
+## Submit Work Request
 Untuk membuat laporan WR, anda dapat memilih menu ini dan mengisi field-field data yang diperlukan:
 
 Field | Makna
