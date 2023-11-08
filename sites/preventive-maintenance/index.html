@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752723700921">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752730697977">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Preventive Maintenance | Sigrax EAMS Documentation</title>
     <meta name="title" content="Preventive Maintenance | Sigrax EAMS Documentation">
+    <meta name="description" content="Preventive Maintenance adalah serangkaian kegiatan perawatan yang direncanakan dan dilakukan secara berkala untuk mencegah kerusakan atau kegagalan...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://sigrax.netlify.app/sites/preventive-maintenance/">
@@ -19,20 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sigrax.netlify.app/sites/preventive-maintenance/">
     <meta property="og:title" content="Preventive Maintenance | Sigrax EAMS Documentation">
+    <meta property="og:description" content="Preventive Maintenance adalah serangkaian kegiatan perawatan yang direncanakan dan dilakukan secara berkala untuk mencegah kerusakan atau kegagalan...">
+    <meta property="og:image" content="https://sigrax.netlify.app/images/pm-dashboard.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://sigrax.netlify.app/sites/preventive-maintenance/">
     <meta property="twitter:title" content="Preventive Maintenance | Sigrax EAMS Documentation">
+    <meta property="twitter:description" content="Preventive Maintenance adalah serangkaian kegiatan perawatan yang direncanakan dan dilakukan secara berkala untuk mencegah kerusakan atau kegagalan...">
+    <meta property="twitter:image" content="https://sigrax.netlify.app/images/pm-dashboard.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752723700921" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752730697977" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752723700921" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752730697977" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752723700921" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752730697977" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -47,8 +52,8 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
-                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Sigrax EAMS</span>
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Sigrax EAMS Docs</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">v1.0</span>
                     </div>
         
@@ -201,48 +206,376 @@
         <span>Preventive Maintenance</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="pm-schedules-time-based">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-schedules-time-based">#</doc-anchor-trigger>
-        <span>PM Schedules (Time-Based)</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="pm-schedules-meter-based">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-schedules-meter-based">#</doc-anchor-trigger>
-        <span>PM Schedules (Meter-Based)</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="pm-generation">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-generation">#</doc-anchor-trigger>
-        <span>PM Generation</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="meter-reading">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#meter-reading">#</doc-anchor-trigger>
-        <span>Meter Reading</span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="pm-planner">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-planner">#</doc-anchor-trigger>
-        <span>PM Planner</span>
-    </h3>
-</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/pm-dashboard.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Preventive Maintenance adalah serangkaian kegiatan perawatan yang direncanakan dan dilakukan secara berkala untuk mencegah kerusakan atau kegagalan suatu aset atau part. Pada halaman ini, anda dapat mengatur dan menjadwalkan PM yang akan dilakukan.</p>
 <doc-anchor-target id="pm-tasks">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#pm-tasks">#</doc-anchor-trigger>
         <span>PM Tasks</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/pm-tasklist.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+PM Task adalah inti dan hal yang paling utama dari PM itu sendiri. PM task menjabarkan pekerjaan yang harus dilakukan pada suatu PM. Halaman ini akan menampilkan semua task yang telah dibuat.</p>
+<doc-anchor-target id="menambahkan-pm-tasks">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menambahkan-pm-tasks">#</doc-anchor-trigger>
+        <span>Menambahkan PM Tasks</span>
     </h3>
 </doc-anchor-target>
-<doc-anchor-target id="group-inspection">
+<p>Untuk menambahkan task, anda dapat menekan tombol (Create New Task) dan mengisi form yang muncul.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PM Task No*</td>
+<td>Nomor ID task</td>
+</tr>
+<tr>
+<td>PM Task Name*</td>
+<td>Nama task</td>
+</tr>
+<tr>
+<td>Remark</td>
+<td>~</td>
+</tr>
+<tr>
+<td>Labour Hours</td>
+<td>Jam kerja yang dibutuhkan untuk PM</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Apakah task aktif atau tidak.</td>
+</tr>
+<tr>
+<td>Global</td>
+<td>~</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Ketika grup telah dibuat, selanjutnya anda dapat mengatur detail dalam task tersebut, termasuk task checklist, part yang dibutuhkan, instruksi dan lain-lain. Untuk melakukan hal tersebut, anda dapat menekan tombol lihat, yaitu:</p>
+<p><figure class="content-center">
+    <img src="../../images/wo-eng-button.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Kemudian, anda akan diarahkan ke halaman isi dari task tersebut yang memiliki beberapa submenu, yaitu:</p>
+<p><figure class="content-center">
+    <img src="../../images/pm-task-detail.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="task">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#task">#</doc-anchor-trigger>
+        <span>Task</span>
+    </h4>
+</doc-anchor-target>
+<p>Task adalah pekerjaan dari PM itu sendiri. Task ini terdiri dari check list pekerjaan atau tindakan apa saja yang dilakukan pada suatu PM. Pada halaman ini, anda dapat melihat dan mengatur task list tersebut. Untuk menambah pekerjaan, anda dapat menekan tombol (Add New Task) yang berada pada atas halaman dan mengisi form yang muncul.</p>
+<doc-anchor-target id="material">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#material">#</doc-anchor-trigger>
+        <span>Material</span>
+    </h4>
+</doc-anchor-target>
+<p>Material atau part adalah suku cadang yang dibutuhkan dalam pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur material yang diperlukan. Anda dapat menambahkan material berdasarkan data material yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia. Anda juga dapat mengatur berapa kuantitas yang dibutuhkan.</p>
+<doc-anchor-target id="safety">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#safety">#</doc-anchor-trigger>
+        <span>Safety</span>
+    </h4>
+</doc-anchor-target>
+<p>Safety Instruction adalah instruksi keselamatan yang harus dipatuhi selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur instruksi yang diperlukan. Anda dapat menambahkan craft berdasarkan data <strong>safety instruction</strong> yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia. Jangan lupa simpan perubahan yang anda lakukan.</p>
+<doc-anchor-target id="tools">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tools">#</doc-anchor-trigger>
+        <span>Tools</span>
+    </h4>
+</doc-anchor-target>
+<p>Tools adalah alat-alat yang mungkin diperlukan selama pengerjaan PM. Anda dapat menambahkan nama tools pada field yang tersedia, dan jumlah alat tersebut.</p>
+<doc-anchor-target id="craft">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#craft">#</doc-anchor-trigger>
+        <span>Craft</span>
+    </h4>
+</doc-anchor-target>
+<p>Craft adalah jenis pekerjaan yang dibutuhkan dalam pengerjaan PM, seperti kelistrikan, mekanis dan lain-lain. Pada submenu ini anda dapat mengatur craft yang dibutuhkan. Anda dapat menambahkan craft berdasarkan <strong>craft</strong> yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia.</p>
+<doc-anchor-target id="ppe">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ppe">#</doc-anchor-trigger>
+        <span>PPE</span>
+    </h4>
+</doc-anchor-target>
+<p>Personal Protective Equipment (PPE) adalah peralatan atau perlengkapan yang dirancang untuk melindungi kesehatan dan keselamatan individu selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur PPE yang dibutuhkan. Anda dapat menambahkan PPE dengan memasukkan nama PPE tersebut dan menyimpannya.</p>
+<doc-anchor-target id="attachments">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#attachments">#</doc-anchor-trigger>
+        <span>Attachments</span>
+    </h4>
+</doc-anchor-target>
+<p>Attachment atau lampiran adalah dokumen yang mungkin diperlukan dalam pengerjaan PM. Anda dapat menambahkan dan mengunggah lampiran dengan menekan tombol (Upload Attachment) yang berada pada atas halaman.</p>
+<doc-anchor-target id="notes">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notes">#</doc-anchor-trigger>
+        <span>Notes</span>
+    </h4>
+</doc-anchor-target>
+<p>Notes adalah catatan lainnya yang mungkin diperlukan dalam pengerjaan PM. Jangan lupa simpan perubahan yang anda lakukan.</p>
+<doc-anchor-target id="mengedit-pm-tasks">
     <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-pm-tasks">#</doc-anchor-trigger>
+        <span>Mengedit PM Tasks</span>
+    </h3>
+</doc-anchor-target>
+<p>Untuk mengedit sebuah task itu sendiri, anda dapat menekan tombol edit yang terdapat pada list, dan anda akan dimunculkan pop-up task tersebut dan anda dapat mengubahnya. Tekan tombol (Save) untuk menyimpan perubahan yang dilakukan.</p>
+<doc-anchor-target id="menghapus-pm-tasks">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#menghapus-pm-tasks">#</doc-anchor-trigger>
+        <span>Menghapus PM Tasks</span>
+    </h3>
+</doc-anchor-target>
+<p>Untuk mengedit sebuah task itu sendiri, anda dapat menekan tombol hapus yang bersimbolkan tempat sampah berwarna merah.</p>
+<doc-anchor-target id="pm-schedules-time-based">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-schedules-time-based">#</doc-anchor-trigger>
+        <span>PM Schedules (Time-Based)</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/pm-timebased.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>PM Time-Based berarti penjadwalan pemeliharaan berdasarkan waktu yang ditentukan. Pada halaman utama atau halaman schedules ini, anda dapat melihat daftar pemeliharaan berkala yang dibuat berdasarkan waktu tertentu. Anda dapat menambahkan PM berdasarkan waktu ini dengan</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Jangka Waktu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed Time</td>
+<td>Adalah berdasarkan jangka waktu tertentu, yang dapat anda pilih antara harian (1 Hari) mingguan (7 Hari), bulanan (28 Hari), 2 bulanan (56 Hari) dan Tahunan (365 Hari).</td>
+</tr>
+<tr>
+<td>Fixed Day</td>
+<td>Fixed Day artinya adalah berdasarkan hari tertentu per bulan. Misalkan anda mengatur PM akan dilakukan pada hari Rabu minggu ke 2 dan dilaksanakan 3 bulan sekali.</td>
+</tr>
+<tr>
+<td>Fixed Date</td>
+<td>Fixed Date artinya adalah berdasarkan tanggal tertentu. Misal anda ingin mengatur PM akan dilaksanakan tanggal 10 Tiap bulan atau 2 bulan.</td>
+</tr>
+<tr>
+<td>Event</td>
+<td>Event adalah berdasarkan suatu kejadian atau kegiatan tertentu.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Untuk menjadwalkan PM Time-based sendiri, anda dapat menekan salah satu dari tombol diatas berdasarkan yang anda inginkan, kemudian anda akan diarahkan ke form dengan data sebagai berikut:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PM No*</td>
+<td>Nomor ID PM</td>
+</tr>
+<tr>
+<td>PM Name</td>
+<td>Nama PM</td>
+</tr>
+<tr>
+<td>Work Trade</td>
+<td>Jenis pekerjaan yang dilakukan</td>
+</tr>
+<tr>
+<td>Choose PM By</td>
+<td>Pilihan objek yang akan dilakukan maintenance. Dapat berupa satu aset, satu lokasi (semua aset dalam lokasi) dan inspection group (jenis/grup aset (lihat <doc-anchor-trigger to="#group-inspection">Group Inspection</doc-anchor-trigger>))</td>
+</tr>
+<tr>
+<td>Asset/Location/Inspection Group</td>
+<td>Nama aset/lokasi/grup yang akan dilakukan PM</td>
+</tr>
+<tr>
+<td>Task No</td>
+<td>Pekerjaan yang akan dilakukan. (lihat <doc-anchor-trigger to="##pm-tasks">PM Task</doc-anchor-trigger>)</td>
+</tr>
+<tr>
+<td>Generation Type</td>
+<td>Waktu dimana PM akan meng-generate WO.</td>
+</tr>
+<tr>
+<td>Time Setting</td>
+<td>Pengaturan waktu. Field ini berbeda tergantung pada kategori rentang waktu yang anda pilih.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Apakah PM aktif atau tidak.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Untuk mengedit sebuah PM, anda dapat menekan tombol edit yang terdapat pada setiap list PM.</p>
+<p><figure class="content-center">
+    <img src="../../images/wo-eng-button.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Dengan menekan tombol tersebut, anda akan diarahkan ke halaman detail PM tersebut dan dapat mengubahnya. Dalam menu edit tersebut, juga terdapat tombol forecast, yang akan menampilkan jadwal PM ke depannya.</p>
+<doc-anchor-target id="pm-schedules-meter-based">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-schedules-meter-based">#</doc-anchor-trigger>
+        <span>PM Schedules (Meter-Based)</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/pm-meterbased.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>PM Meter-Based berarti penjadwalan pemeliharaan berdasarkan meter atau ukuran yang dapat diukur. Pada halaman utama atau halaman meters ini, anda dapat melihat daftar pemeliharaan berkala yang dibuat berdasarkan waktu tertentu. Anda dapat menambahkan PM berdasarkan meter ini dengan menekan tombol (New Meter) yang kemudian anda akan diarahkan ke form dengan data sebagai berikut:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meter No*</td>
+<td>Nomor ID Meter</td>
+</tr>
+<tr>
+<td>Meter Name</td>
+<td>Nama Meter</td>
+</tr>
+<tr>
+<td>Work Trade</td>
+<td>Jenis pekerjaan yang dilakukan</td>
+</tr>
+<tr>
+<td>Asset</td>
+<td>Aset yang akan dilakukan PM</td>
+</tr>
+<tr>
+<td>Meter Reading</td>
+<td>Jenis pembacaan meter. Incremental: perulangan, misal setiap 100 km, dan Threshold : ambang batas, misal jika meter telah menyentuh 5000 km.</td>
+</tr>
+<tr>
+<td>Unit of Measurement</td>
+<td>Satuan ukuran</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Apakah PM aktif atau tidak.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Kemudian, untuk memperbarui meter yang ada, anda dapat menekan tombol <doc-anchor-trigger to="#meter-reading">meter reading</doc-anchor-trigger>, yang akan membawa anda ke halaman tempat meter tersebut berada.</p>
+<p>Untuk mengedit sebuah PM, anda dapat menekan tombol edit yang terdapat pada setiap list PM.</p>
+<p><figure class="content-center">
+    <img src="../../images/wo-eng-button.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Dengan menekan tombol tersebut, anda akan diarahkan ke halaman detail PM tersebut dan dapat mengubahnya.</p>
+<doc-anchor-target id="meter-reading">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#meter-reading">#</doc-anchor-trigger>
+        <span>Meter Reading</span>
+    </h2>
+</doc-anchor-target>
+<p>Meter reading, seperti telah dijelaskan pada <doc-anchor-trigger to="#pm-schedules-meter-based">PM Schedules (Meter Based)</doc-anchor-trigger>, adalah halaman untuk memperbarui (update) dari PM-PM berdasarkan meter yang telah anda buat.</p>
+<doc-anchor-target id="pm-generation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-generation">#</doc-anchor-trigger>
+        <span>PM Generation</span>
+    </h2>
+</doc-anchor-target>
+<p>Halaman ini adalah halaman dimana anda dapat melihat keseluruhan PM yang dibuat, waktu dimana PM tersebut harus dilakukan dan juga waktu aktual pengerjaan PM tersebut.</p>
+<doc-anchor-target id="pm-planner">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-planner">#</doc-anchor-trigger>
+        <span>PM Planner</span>
+    </h2>
+</doc-anchor-target>
+<p>Halaman planner adalah halaman yang berisikan kalender, yang mana di dalamnya terdapat pengingat untuk PM-PM yang ada.</p>
+<doc-anchor-target id="group-inspection">
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#group-inspection">#</doc-anchor-trigger>
         <span>Group Inspection</span>
-    </h3>
+    </h2>
 </doc-anchor-target>
+<p>Grup inspeksi adalah satu grup yang berisi aset-aset atau lokasi yang akan diservis/ maintenance pada waktu yang sama. Aset atau lokasi dapat berada pada satu site yang sama ataupun tidak. Halaman ini akan menampilkan grup-grup yang telah dibuat.
+Untuk menambahkan grup, anda dapat menekan tombol (Create New Group) dan mengisi form yang muncul.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Field</th>
+<th>Makna</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Group No*</td>
+<td>Nomor ID grup</td>
+</tr>
+<tr>
+<td>Group Description*</td>
+<td>Deskripsi grup. Contoh : Cleaning area, AC Ruang A.</td>
+</tr>
+<tr>
+<td>Group Type</td>
+<td>Tipe grup, yaitu antara aset atau lokasi.</td>
+</tr>
+<tr>
+<td>Total Area</td>
+<td>Jumlah luas area</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Apakah grup aktif atau tidak.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Ketika grup telah dibuat, selanjutnya anda dapat menambahkan aset yang akan menjadi bagian dari grup tersebut.</p>
+<p><figure class="content-center">
+    <img src="../../images/pm-actions.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Untuk melakukan hal tersebut, anda dapat menekan tombol lihat grup, yaitu tombol pertama yang bersimbolkan mata, dan akan membawa anda ke halaman isi dari grup tersebut.</p>
+<p><figure class="content-center">
+    <img src="../../images/group-detail.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Untuk menambahkan aset, anda dapat menekan tombol (Add new asset), dan memilih aset dari aset-aset yang sudah ada. Jangan lupa untuk menekan (Save) untuk menyimpannya.</p>
+<p>Untuk mengedit sebuah grup, anda dapat menekan tombol edit yang terdapat pada list, yaitu tombol dengan simbol pena yang berada di tengah. Dengan menekan tombol tersebut, anda akan diarahkan ke halaman detail grup tersebut dan anda dapat mengubahnya. Tekan tombol (Save) untuk menyimpan perubahan yang dilakukan.</p>
 
                                 
                                 <!-- Required only on API pages -->
