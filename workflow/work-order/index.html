@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752665018189">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752719839491">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Work Order | Sigrax EAMS Documentation</title>
     <meta name="title" content="Work Order | Sigrax EAMS Documentation">
+    <meta name="description" content="Untuk pembuatan Work Order dapat dilakukan dengan berbagai cara, yaitu dari tindak lanjut Work Request, pembuatan langsung dan melalui Preventive...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://sigrax.netlify.app/workflow/work-order/">
@@ -19,20 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sigrax.netlify.app/workflow/work-order/">
     <meta property="og:title" content="Work Order | Sigrax EAMS Documentation">
+    <meta property="og:description" content="Untuk pembuatan Work Order dapat dilakukan dengan berbagai cara, yaitu dari tindak lanjut Work Request, pembuatan langsung dan melalui Preventive...">
+    <meta property="og:image" content="https://sigrax.netlify.app/images/flow-wo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://sigrax.netlify.app/workflow/work-order/">
     <meta property="twitter:title" content="Work Order | Sigrax EAMS Documentation">
+    <meta property="twitter:description" content="Untuk pembuatan Work Order dapat dilakukan dengan berbagai cara, yaitu dari tindak lanjut Work Request, pembuatan langsung dan melalui Preventive...">
+    <meta property="twitter:image" content="https://sigrax.netlify.app/images/flow-wo.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752665018189" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752719839491" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752665018189" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752719839491" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752665018189" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752719839491" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -201,6 +206,57 @@
         <span>Work Order</span>
     </h1>
 </doc-anchor-target>
+<p>Untuk pembuatan Work Order dapat dilakukan dengan berbagai cara, yaitu dari tindak lanjut Work Request, pembuatan langsung dan melalui Preventive Maintenance. Namun, pada dasarnya alur dari WO adalah sebagai berikut:</p>
+<doc-anchor-target id="1-membuat-work-order">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#1-membuat-work-order">#</doc-anchor-trigger>
+        <span>1. Membuat Work Order</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Untuk WO dari tindak lanjut WR, maka form langsung muncul setelah mengubah status WR menjadi Create WR.</li>
+<li>Untuk WO secara langsung, dapat dibuat melalui dashboard Site.</li>
+<li>Untuk WO dari PM, maka dapat dibuat dari halaman PM.</li>
+</ul>
+<doc-anchor-target id="2-pengisian-detail-oleh-supervisor">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#2-pengisian-detail-oleh-supervisor">#</doc-anchor-trigger>
+        <span>2. Pengisian Detail oleh Supervisor</span>
+    </h2>
+</doc-anchor-target>
+<p>Setelah WO dibuat, maka supervisor selanjutnya harus mengisi detail WO pada bagian Manage Works &gt; Open Task &gt; Work Order &gt; Tanda edit (Pena) pada WO tersebut dan kemudian isi detail yang dibutuhkan.</p>
+<doc-anchor-target id="3-pengerjaan-oleh-teknisi">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#3-pengerjaan-oleh-teknisi">#</doc-anchor-trigger>
+        <span>3. Pengerjaan oleh Teknisi</span>
+    </h2>
+</doc-anchor-target>
+<p>Setelah pengisian detail WO, maka teknisi yang ditunjuk harus segera melakukan tugasnya. Kemudian, jika telah mengerjakan maka dapat mengubah status menjadi status yang sesuai (waiting for sparepart, on progress,...). Jika memang telah selesai, maka dapat mengubah status WO menjadi completed.</p>
+<doc-anchor-target id="4-review-pekerjaan-oleh-supervisor">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#4-review-pekerjaan-oleh-supervisor">#</doc-anchor-trigger>
+        <span>4. Review Pekerjaan oleh Supervisor</span>
+    </h2>
+</doc-anchor-target>
+<p>Ketika status WO telah menjadi completed, maka pekerjaan yang telah dilakukan dapat direview kembali oleh supervisor untuk memastikan pekerjaan yang dilakukan telah sesuai.</p>
+<doc-anchor-target id="5-penyelesaian-wo">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#5-penyelesaian-wo">#</doc-anchor-trigger>
+        <span>5. Penyelesaian WO</span>
+    </h2>
+</doc-anchor-target>
+<p>Jika WO dirasa telah sesuai, maka supervisor dapat merubah status WO menjadi done, dan jika disimpan, maka WO tersebut akan dianggap selesai dan ditutup.</p>
+<doc-anchor-target id="flowchart-work-order">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#flowchart-work-order">#</doc-anchor-trigger>
+        <span>Flowchart Work Order</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../images/flow-wo.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 
                                 
                                 <!-- Required only on API pages -->
