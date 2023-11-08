@@ -29,29 +29,37 @@ Kemudian, anda akan diarahkan ke halaman isi dari task tersebut yang memiliki be
 
 ![](../images/pm-task-detail.png)
 
-#### Task
+==- Task
 Task adalah pekerjaan dari PM itu sendiri. Task ini terdiri dari check list pekerjaan atau tindakan apa saja yang dilakukan pada suatu PM. Pada halaman ini, anda dapat melihat dan mengatur task list tersebut. Untuk menambah pekerjaan, anda dapat menekan tombol (Add New Task) yang berada pada atas halaman dan mengisi form yang muncul.
+===
 
-#### Material
+==- Material
 Material atau part adalah suku cadang yang dibutuhkan dalam pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur material yang diperlukan. Anda dapat menambahkan material berdasarkan data material yang ada pada [master data](/master-data) pada field yang tersedia. Anda juga dapat mengatur berapa kuantitas yang dibutuhkan.
+===
 
-#### Safety
+==- Safety
 Safety Instruction adalah instruksi keselamatan yang harus dipatuhi selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur instruksi yang diperlukan. Anda dapat menambahkan craft berdasarkan data **safety instruction** yang ada pada [master data](/master-data) pada field yang tersedia. Jangan lupa simpan perubahan yang anda lakukan.
+===
 
-#### Tools
+==- Tools
 Tools adalah alat-alat yang mungkin diperlukan selama pengerjaan PM. Anda dapat menambahkan nama tools pada field yang tersedia, dan jumlah alat tersebut. 
+===
 
-#### Craft
+==- Craft
 Craft adalah jenis pekerjaan yang dibutuhkan dalam pengerjaan PM, seperti kelistrikan, mekanis dan lain-lain. Pada submenu ini anda dapat mengatur craft yang dibutuhkan. Anda dapat menambahkan craft berdasarkan **craft** yang ada pada [master data](/master-data) pada field yang tersedia.
+===
 
-#### PPE
+==- PPE
 Personal Protective Equipment (PPE) adalah peralatan atau perlengkapan yang dirancang untuk melindungi kesehatan dan keselamatan individu selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur PPE yang dibutuhkan. Anda dapat menambahkan PPE dengan memasukkan nama PPE tersebut dan menyimpannya.
+===
 
-#### Attachments
+==- Attachments
 Attachment atau lampiran adalah dokumen yang mungkin diperlukan dalam pengerjaan PM. Anda dapat menambahkan dan mengunggah lampiran dengan menekan tombol (Upload Attachment) yang berada pada atas halaman.
+===
 
-#### Notes
+==- Notes
 Notes adalah catatan lainnya yang mungkin diperlukan dalam pengerjaan PM. Jangan lupa simpan perubahan yang anda lakukan.
+===
 
 ### Mengedit PM Tasks
 Untuk mengedit sebuah task itu sendiri, anda dapat menekan tombol edit yang terdapat pada list, dan anda akan dimunculkan pop-up task tersebut dan anda dapat mengubahnya. Tekan tombol (Save) untuk menyimpan perubahan yang dilakukan.
