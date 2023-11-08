@@ -1,6 +1,9 @@
 ---
 order: 10
 icon: home-fill
+meta:
+    title : "SIGRAX EAMS Documentation"
+
 ---
 
 # Introduction
