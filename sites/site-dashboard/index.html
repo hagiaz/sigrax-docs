@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752758924780">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752803273965">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752758924780" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752803273965" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752758924780" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752803273965" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752758924780" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752803273965" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -219,9 +219,21 @@
         <span>Highlights</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="highlights-1">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#highlights-1">#</doc-anchor-trigger>
+        <span>Highlights</span>
+    </h2>
+</doc-anchor-target>
 <doc-anchor-target id="work-request-highlight">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#work-request-highlight">#</doc-anchor-trigger>
+        <span>Work Request Highlight</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="work-request-highlight-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#work-request-highlight-1">#</doc-anchor-trigger>
         <span>Work Request Highlight</span>
     </h3>
 </doc-anchor-target>
@@ -229,6 +241,12 @@
 <doc-anchor-target id="work-order-highlight">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#work-order-highlight">#</doc-anchor-trigger>
+        <span>Work Order Highlight</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="work-order-highlight-1">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#work-order-highlight-1">#</doc-anchor-trigger>
         <span>Work Order Highlight</span>
     </h3>
 </doc-anchor-target>
@@ -246,6 +264,12 @@
         <span>Location</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="location-1">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#location-1">#</doc-anchor-trigger>
+        <span>Location</span>
+    </h2>
+</doc-anchor-target>
 <p>Lokasi adalah tempat dimana aset anda berada. Berbeda dengan sites, lokasi adalah tempat spesifik dalam site tersebut, atau satu tingkat di bawahnya. Contoh : Didalam site Jakarta, terdapat lokasi Main Building dan R&amp;D Building, atau Lantai 1 dan Lantai 2. Didalam suatu site dapat terdapat beberapa lokasi.</p>
 <doc-anchor-target id="menambah-lokasi">
     <h3>
@@ -253,7 +277,8 @@
         <span>Menambah Lokasi</span>
     </h3>
 </doc-anchor-target>
-<p>Tekan tombol <strong>(+ Create New Location)</strong> yang berada pada sisi atas dashboard, dan mengisi form yang muncul.</p>
+<p>Tekan tombol <strong>(+ Create New Location)</strong>
+yang berada pada sisi atas dashboard, dan isi form yang muncul.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -277,7 +302,8 @@
         <span>Mengedit Lokasi</span>
     </h3>
 </doc-anchor-target>
-<p>Untuk mengedit lokasi, tekan tombol edit yang bersimbolkan mata berwarna biru pada list lokasi, kemudian akan muncul nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.</p>
+<p>Tekan tombol edit yang bersimbolkan mata berwarna biru pada list lokasi.
+Kemudian akan muncul nama dan deskripsi dari lokasi tersebut dan anda dapat mengubahnya.</p>
 <p><figure class="content-center">
     <img src="../../images/edit-location.png" alt="">
     <figcaption class="caption"></figcaption>
@@ -289,7 +315,10 @@
         <span>Menghapus Lokasi</span>
     </h3>
 </doc-anchor-target>
-<p>Untuk menghapus lokasi, pada list lokasi tersebut anda dapat menekan tombol merah ikon tempat sampah yang ada di sebelah tombol edit.</p>
+<doc-panel id="tekan-tombol-hapus" collapsed>
+    <template #title>Tekan tombol hapus.</template>
+<p>(ikon tempat sampah yang ada di sebelah tombol edit).</p>
+</doc-panel>
 <doc-anchor-target id="sub-location">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sub-location">#</doc-anchor-trigger>
@@ -363,34 +392,23 @@
 </figure>
 </p>
 <p>Pada halaman detail gudang, terdapat juga sub-menu yang berguna untuk mengatur gudang tersebut, yaitu:</p>
-<doc-anchor-target id="warehouse-detail">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#warehouse-detail">#</doc-anchor-trigger>
-        <span>Warehouse Detail</span>
-    </h4>
-</doc-anchor-target>
-<p>Warehouse detail adalah data tentang gudang itu sendiri. Pada halaman ini anda dapat melihat detail seperti foto, nama, kode dan deskripsi dari gudang tersebut dan merubahnya.</p>
-<doc-anchor-target id="receive">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#receive">#</doc-anchor-trigger>
-        <span>Receive</span>
-    </h4>
-</doc-anchor-target>
+<doc-panel id="warehouse-detail" collapsed>
+    <template #title>Warehouse Detail</template>
+<p>Warehouse detail adalah data tentang gudang itu sendiri.
+Pada halaman ini anda dapat melihat detail seperti foto, nama, kode dan deskripsi dari gudang tersebut dan merubahnya.</p>
+</doc-panel>
+<doc-panel id="receive" collapsed>
+    <template #title>Receive</template>
 <p>Halaman receive ini adalah halaman dimana anda dapat mengatur dan menambahkan barang/part yang masuk ke suatu gudang.</p>
-<doc-anchor-target id="stock">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#stock">#</doc-anchor-trigger>
-        <span>Stock</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="stock" collapsed>
+    <template #title>Stock</template>
 <p>Halaman stock adalah halaman dimana anda dapat melihat dan mengatur stok suku cadang/part yang terdapat pada suatu gudang.</p>
-<doc-anchor-target id="transfer">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#transfer">#</doc-anchor-trigger>
-        <span>Transfer</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="transfer" collapsed>
+    <template #title>Transfer</template>
 <p>Pada halaman transfer disini, anda dapat melihat data suku cadang/part yang berpindah (transfer) baik menuju maupun dari gudang tersebut.</p>
+</doc-panel>
 <doc-anchor-target id="mengedit-gudang">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-gudang">#</doc-anchor-trigger>

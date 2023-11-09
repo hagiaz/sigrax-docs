@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752758924780">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752803273965">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/icon.svg" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.752758924780" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752803273965" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752758924780" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752803273965" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752758924780" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752803273965" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -277,62 +277,38 @@ PM Task adalah inti dan hal yang paling utama dari PM itu sendiri. PM task menja
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<doc-anchor-target id="task">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#task">#</doc-anchor-trigger>
-        <span>Task</span>
-    </h4>
-</doc-anchor-target>
+<doc-panel id="task" collapsed>
+    <template #title>Task</template>
 <p>Task adalah pekerjaan dari PM itu sendiri. Task ini terdiri dari check list pekerjaan atau tindakan apa saja yang dilakukan pada suatu PM. Pada halaman ini, anda dapat melihat dan mengatur task list tersebut. Untuk menambah pekerjaan, anda dapat menekan tombol (Add New Task) yang berada pada atas halaman dan mengisi form yang muncul.</p>
-<doc-anchor-target id="material">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#material">#</doc-anchor-trigger>
-        <span>Material</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="material" collapsed>
+    <template #title>Material</template>
 <p>Material atau part adalah suku cadang yang dibutuhkan dalam pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur material yang diperlukan. Anda dapat menambahkan material berdasarkan data material yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia. Anda juga dapat mengatur berapa kuantitas yang dibutuhkan.</p>
-<doc-anchor-target id="safety">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#safety">#</doc-anchor-trigger>
-        <span>Safety</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="safety" collapsed>
+    <template #title>Safety</template>
 <p>Safety Instruction adalah instruksi keselamatan yang harus dipatuhi selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur instruksi yang diperlukan. Anda dapat menambahkan craft berdasarkan data <strong>safety instruction</strong> yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia. Jangan lupa simpan perubahan yang anda lakukan.</p>
-<doc-anchor-target id="tools">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tools">#</doc-anchor-trigger>
-        <span>Tools</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="tools" collapsed>
+    <template #title>Tools</template>
 <p>Tools adalah alat-alat yang mungkin diperlukan selama pengerjaan PM. Anda dapat menambahkan nama tools pada field yang tersedia, dan jumlah alat tersebut.</p>
-<doc-anchor-target id="craft">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#craft">#</doc-anchor-trigger>
-        <span>Craft</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="craft" collapsed>
+    <template #title>Craft</template>
 <p>Craft adalah jenis pekerjaan yang dibutuhkan dalam pengerjaan PM, seperti kelistrikan, mekanis dan lain-lain. Pada submenu ini anda dapat mengatur craft yang dibutuhkan. Anda dapat menambahkan craft berdasarkan <strong>craft</strong> yang ada pada <a href="../../master-data/">master data</a> pada field yang tersedia.</p>
-<doc-anchor-target id="ppe">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ppe">#</doc-anchor-trigger>
-        <span>PPE</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="ppe" collapsed>
+    <template #title>PPE</template>
 <p>Personal Protective Equipment (PPE) adalah peralatan atau perlengkapan yang dirancang untuk melindungi kesehatan dan keselamatan individu selama pengerjaan PM. Pada submenu ini anda dapat melihat dan mengatur PPE yang dibutuhkan. Anda dapat menambahkan PPE dengan memasukkan nama PPE tersebut dan menyimpannya.</p>
-<doc-anchor-target id="attachments">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#attachments">#</doc-anchor-trigger>
-        <span>Attachments</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="attachments" collapsed>
+    <template #title>Attachments</template>
 <p>Attachment atau lampiran adalah dokumen yang mungkin diperlukan dalam pengerjaan PM. Anda dapat menambahkan dan mengunggah lampiran dengan menekan tombol (Upload Attachment) yang berada pada atas halaman.</p>
-<doc-anchor-target id="notes">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#notes">#</doc-anchor-trigger>
-        <span>Notes</span>
-    </h4>
-</doc-anchor-target>
+</doc-panel>
+<doc-panel id="notes" collapsed>
+    <template #title>Notes</template>
 <p>Notes adalah catatan lainnya yang mungkin diperlukan dalam pengerjaan PM. Jangan lupa simpan perubahan yang anda lakukan.</p>
+</doc-panel>
 <doc-anchor-target id="mengedit-pm-tasks">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#mengedit-pm-tasks">#</doc-anchor-trigger>
