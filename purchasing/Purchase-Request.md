@@ -7,7 +7,7 @@ Purchase Request atau Purchase Requisition (PR) adalah  sarana atau lembar permi
 
 ![](../images/pr-page.png)
 
-## Menambahkan PR
+## Membuat PR
 Untuk menambahkan PR, tekan tombol (+ Create PR) dan isi form yang muncul.
 
 Field | Makna

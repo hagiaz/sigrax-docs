@@ -27,7 +27,7 @@ Lokasi adalah tempat dimana aset anda berada. Berbeda dengan sites, lokasi adala
 Tekan tombol **(+ Create New Location)**
 yang berada pada sisi atas dashboard, dan isi form yang muncul.
 
-!!!warning Alert
+!!!warning Perhatian
 Pada tiap form, field bertanda bintang (*) adalah field yang harus diisi (required).
 !!!
 
