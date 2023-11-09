@@ -10,16 +10,20 @@ Site adalah tempat dimana aset-aset perusahaan berada. Pada halaman ini, anda da
 Dalam halaman utama ini, terdapat beberapa hal yang terlihat, yaitu:
 
 ## Highlights
+## Highlights
 
+### Work Request Highlight
 ### Work Request Highlight
 Pada highlight ini, ditampilkan data WR yang telah selesai dan dijadikan WO. Anda juga dapat langsung membuat WR dengan menekan tombol titik tiga di pojok kanan kotak (...) dan tekan new WR. Untuk lebih lengkap mengenai Work Request, lihat pada bagian [Manage Works](/sites/manage-works). 
 
+### Work Order Highlight
 ### Work Order Highlight
 Pada highlight ini, ditampilkan data WO yang harus dilihat, sedang berjalan, selesai dan lain-lain. Anda juga dapat langsung membuat WO dengan menekan tombol titik tiga di pojok kanan kotak (...) dan tekan new WO. Untuk lebih lengkap mengenai Work Order, lihat pada bagian [Manage Works](/sites/manage-works). 
 
 ### Cost Highlight
 Costs atau biaya adalah jumlah biaya-biaya yang anda telah dikeluarkan selama satu jangka waktu. Pada halaman ini terdapat beberapa highlight biaya, seperti seperti biaya part (suku cadang), labour (tenaga kerja), dan lain-lain.
 
+## Location
 ## Location
 Lokasi adalah tempat dimana aset anda berada. Berbeda dengan sites, lokasi adalah tempat spesifik dalam site tersebut, atau satu tingkat di bawahnya. Contoh : Didalam site Jakarta, terdapat lokasi Main Building dan R&D Building, atau Lantai 1 dan Lantai 2. Didalam suatu site dapat terdapat beberapa lokasi.
 
