@@ -49,4 +49,4 @@ Ketika PO telah dibuat, maka anda dapat mengisi detail PO tersebut lebih jauh. U
 Jika telah selesai mengisi detail PO, anda dapat mencetak PO tersebut dan melaksanakannya sesuai detail dari PO.
 
 ## Flowchart Purchasing
-![](../images/flow-po.png)
+![](../images/po-flow.png)

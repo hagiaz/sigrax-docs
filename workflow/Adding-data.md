@@ -53,4 +53,4 @@ Untuk lebih lengkap mengenai bagaimana cara menambahkan, mengedit dan menghapus 
 ## Flowchart Pengisian Data
 Ringkasnya, untuk flow pengisian data adalah sebagai berikut:
 
-![](../images/flow-data.png)
+![](../images/data-flow.png)

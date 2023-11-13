@@ -18,4 +18,4 @@ Setelah dievaluasi, maka teknisi harus mengubah hasil WR menjadi salah satu dian
 * Create WO : Masalah perlu ditindaklanjuti dan dibuat WO.
 
 ## Flowchart Pembuatan WR
-![](../images/flow-wr.png)
+![](../images/wr-flow.png)

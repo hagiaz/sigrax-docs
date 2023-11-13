@@ -23,4 +23,4 @@ Ketika status WO telah menjadi completed, maka pekerjaan yang telah dilakukan da
 Jika WO dirasa telah sesuai, maka supervisor dapat merubah status WO menjadi done, dan jika disimpan, maka WO tersebut akan dianggap selesai dan ditutup.
 
 ## Flowchart Work Order
-![](../images/flow-wo.png)
+![](../images/wo-flow.png)
