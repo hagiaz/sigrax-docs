@@ -37,4 +37,5 @@ Dalam jangka waktu tertentu, anda harus mengupdate meter tersebut dalam menu met
 ### 6. Menjalankan PM
 Ketika meter telah mencapai batas yang ditentukan, anda dapat meng-generate atau membuat WO dari PM tersebut dan menjalankan WO sesuai dengan detail PM.
 
-
+## Flowchart PM
+![](../images/pm-flow.png)
