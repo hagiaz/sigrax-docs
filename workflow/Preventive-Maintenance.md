@@ -3,7 +3,7 @@ order: 6
 icon: sparkle-fill
 ---
 
-Hal atau fitur lainnya yang terdapat pada EAMS SIGRAX ini adalah Preventive Maintenance atau pemeliharaan dan pencegahan. Hal ini dilakukan untuk mencegah aset mengalami masalah atau bahkan rusak di kemudian hari. Preventive Maintenance bersifat berkala dan anda dapat mengatur hal tersebut.
+Hal atau fitur lainnya yang terdapat pada CMMS SIGRAX ini adalah Preventive Maintenance atau pemeliharaan dan pencegahan. Hal ini dilakukan untuk mencegah aset mengalami masalah atau bahkan rusak di kemudian hari. Preventive Maintenance bersifat berkala dan anda dapat mengatur hal tersebut.
 
 Alur dari pembuatan PM adalah:
 

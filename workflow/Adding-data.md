@@ -3,11 +3,11 @@ order: 9
 icon: file-added
 ---
 
-Hal pertama yang harus dilakukan setelah anda masuk ke dalam sistem EAMS untuk pertama kali adalah mengisi data-data yang diperlukan.
+Hal pertama yang harus dilakukan setelah anda masuk ke dalam sistem CMMS untuk pertama kali adalah mengisi data-data yang diperlukan.
 
 ## 1. Master Data
 
-Master data adalah kumpulan data-data yang akan berguna saat penggunaan EAMS ini. Pada modul master data, terdapat banyak data yang harus anda isi, yaitu:
+Master data adalah kumpulan data-data yang akan berguna saat penggunaan CMMS ini. Pada modul master data, terdapat banyak data yang harus anda isi, yaitu:
 
 Data | Harus Diisi Pada Awal Penggunaan
 --- | ---
