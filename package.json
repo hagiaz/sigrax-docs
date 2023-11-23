@@ -1,7 +1,7 @@
 {
   "name": "user-manual",
   "version": "1.0.0",
-  "description": "EAMS SIGRAX USER MANUAL",
+  "description": "CMMS SIGRAX USER MANUAL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -10,7 +10,7 @@ Perhatikan bahwa alur ini adalah pembuatan PO dari PR. untuk pembuatan PO secara
 !!!
 
 ## 1. Membuat Purchase Request
-Untuk pembuatan PR, siapapun dapat melakukannya. Untuk membuat PR tersebut, lihat d di [sini](/purchasing/purchase-request/#menambahkan-pr).
+Untuk pembuatan PR, siapapun dapat melakukannya. Untuk membuat PR tersebut, lihat d di [sini](/purchasing/purchase-request/#membuat-pr).
 
 ## 2. Pengisian Detail PR dan Barang
 Ketika PR telah dibuat, maka anda dapat mengisi detail lebih jauh, dan yang lebih penting lagi adalah **mengisi daftar barang yang ingin dibeli**. Untuk mengisi barang, dapat anda isi satu per satu atau berdasarkan Purchase Proposal yang ada.

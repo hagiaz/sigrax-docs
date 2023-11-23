@@ -3,7 +3,7 @@ output: .retype
 url: sigrax.netlify.app
 favicon : static/icon.svg
 branding:
-  title: Sigrax EAMS Docs
+  title: Sigrax CMMS Docs
   label: v1.0
   
 links:
@@ -11,10 +11,10 @@ links:
   link: https://sigrax.com
   icon: globe
 
-- text: SIGRAX EAMS
+- text: SIGRAX CMMS
   link: https://cmms.sigrax.com
   icon: stack
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
 meta:
-  title : " | Sigrax EAMS Documentation"
+  title : " | Sigrax CMMS Documentation"
